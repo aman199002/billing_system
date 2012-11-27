@@ -1,0 +1,6 @@
+= form_for @subscription, :url => {:action => 'create'} do |f|
+  = f.hidden_field :paypal_customer_token
+  = f.hidden_field :paypal_payment_token
+  = f.label :email
+  = f.text_field :email
+  = f.submit

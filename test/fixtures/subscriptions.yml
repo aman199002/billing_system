@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  paypal_customer_token: MyString
+  email: MyString
+
+two:
+  paypal_customer_token: MyString
+  email: MyString
